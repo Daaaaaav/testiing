@@ -1,5 +1,5 @@
 import React from "react";
-import FormCnCWorkplan from "@/src/components/pusb-cnc/Form/FormCnCWorkplan";
+import FormCnCWorkplan from "../../../../../../../../components/pusb-cnc/Form/FormCnCWorkPlan";
 
 const Page = ({
   params,
