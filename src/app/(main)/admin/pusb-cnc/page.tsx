@@ -4,7 +4,7 @@ import { IoDocuments } from "react-icons/io5";
 import { MdBarChart, MdDashboard } from "react-icons/md";
 import { GetPUSBCNC } from "@/pusb-admin/pages/api/pusb-cnc";
 import ContainerCnCList from "@/pusb-admin/components/pusb-cnc/ContainerCnCList";
-import { CNC } from "@/src/types/pusb-cnc-type";
+import { CNC } from "@//types/pusb-cnc-type";
 const Page = async () => {
   const cncs: CNC[] = await GetPUSBCNC();
   const totalCncs = cncs.length;

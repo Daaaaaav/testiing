@@ -3,7 +3,7 @@ import { Button } from "flowbite-react";
 import { FiPlus } from "react-icons/fi";
 import Link from "next/link";
 import UserList from "./UserList";
-import { Users } from "@/src/types/pusb-user-type";
+import { Users } from "@//types/pusb-user-type";
 const ContainerUserList = ({
   users,
   loading,

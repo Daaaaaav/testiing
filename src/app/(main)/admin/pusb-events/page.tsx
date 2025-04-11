@@ -3,8 +3,8 @@ import Widget from "@/pusb-admin/components/pusb-dashboard/Widget";
 import { IoDocuments } from "react-icons/io5";
 import { MdBarChart, MdDashboard } from "react-icons/md";
 import ContainerEventList from "@/pusb-admin/components/pusb-event/ContainerEventList";
-import { GetPUSBEvent } from "@/src/pages/api/pusb-events";
-import { Events } from "@/src/types/pusb-event-type";
+import { GetPUSBEvent } from "@//pages/api/pusb-events";
+import { Events } from "@//types/pusb-event-type";
 
 const Page = async () => {
   const events: Events[] = await GetPUSBEvent();

@@ -12,8 +12,8 @@ import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import Link from "next/link";
 import { FiTrash, FiEdit } from "react-icons/fi";
-import { EventTimeline } from "@/src/types/pusb-event-type";
-import { formatTime } from "@/src/utils/FormatTime";
+import { EventTimeline } from "@//types/pusb-event-type";
+import { formatTime } from "@//utils/FormatTime";
 import ModalTimeline from "./ModalTimeline";
 import ContainerEventTimelineStatus from "./ContainerEventTimelineStatus";
 const EventTimelineList = ({

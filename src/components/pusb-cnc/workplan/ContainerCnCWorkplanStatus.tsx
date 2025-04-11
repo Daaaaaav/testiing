@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import { useSession } from "next-auth/react";
 import Swal from "sweetalert2";
 import Loader from "../../shared/Loader";
-import { Workplan } from "@/src/types/pusb-workplan.type";
+import { Workplan } from "@//types/pusb-workplan.type";
 import {
   ActivatePUSBCNCWorkplan,
   DeactivatePUSBCNCWorkplan,
-} from "@/src/pages/api/pusb-cnc";
+} from "@//pages/api/pusb-cnc";
 
 const ContainerCnCWorkplanStatus = ({
   Workplan,

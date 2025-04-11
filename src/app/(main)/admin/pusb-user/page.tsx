@@ -1,4 +1,4 @@
-import ContainerUser from "@/src/components/pusb-user/ContainerUser";
+import ContainerUser from "@//components/pusb-user/ContainerUser";
 import React from "react";
 const page = async () => {
   return (

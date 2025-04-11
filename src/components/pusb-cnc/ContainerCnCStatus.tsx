@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { useSession } from "next-auth/react";
 import Swal from "sweetalert2";
 import Loader from "../shared/Loader";
-import { CNC } from "@/src/types/pusb-cnc-type";
-import { ActivatePUSBCNC, DeactivatePUSBCNC } from "@/src/pages/api/pusb-cnc";
+import { CNC } from "@//types/pusb-cnc-type";
+import { ActivatePUSBCNC, DeactivatePUSBCNC } from "@//pages/api/pusb-cnc";
 
 const ContainerCnCStatus = ({ cnc }: { cnc: CNC }) => {
   const { data: session } = useSession();

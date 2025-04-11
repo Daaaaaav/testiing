@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { FileInput, Label, TextInput, Select, Textarea } from "flowbite-react";
-import { CNCRequest } from "@/src/types/pusb-cnc-type";
+import { CNCRequest } from "@//types/pusb-cnc-type";
 import Image from "next/image";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
@@ -9,9 +9,9 @@ import {
   CreatePUSBCNC,
   GetPUSBCNCById,
   UpdatePUSBCNC,
-} from "@/src/pages/api/pusb-cnc";
-import SuccessMessageAlert from "@/src/lib/SuccessMessageAlert";
-import FailedMessageAlert from "@/src/lib/FailedMessageAlert";
+} from "@//pages/api/pusb-cnc";
+import SuccessMessageAlert from "@//lib/SuccessMessageAlert";
+import FailedMessageAlert from "@//lib/FailedMessageAlert";
 import Loader from "../../shared/Loader";
 const FormCnC = ({ isEditMode, id }: { isEditMode?: boolean; id?: string }) => {
   const { data: session } = useSession();

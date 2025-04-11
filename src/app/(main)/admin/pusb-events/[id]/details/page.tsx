@@ -1,9 +1,9 @@
-import ContainerEvent from "@/src/components/pusb-event/ContainerEvent";
+import ContainerEvent from "@//components/pusb-event/ContainerEvent";
 import {
   GetPUSBEventById,
   GetPUSBEventTimeline,
-} from "@/src/pages/api/pusb-events";
-import { Events, EventTimeline } from "@/src/types/pusb-event-type";
+} from "@//pages/api/pusb-events";
+import { Events, EventTimeline } from "@//types/pusb-event-type";
 import React from "react";
 
 const Page = async ({ params }: { params: { id: string } }) => {

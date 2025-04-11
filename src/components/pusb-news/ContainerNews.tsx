@@ -3,8 +3,8 @@ import Image from "next/image";
 import { Button } from "flowbite-react";
 import { FiEdit } from "react-icons/fi";
 import Link from "next/link";
-import { News } from "@/src/types/pusb-news-type";
-import { formatTime } from "@/src/utils/FormatTime";
+import { News } from "@//types/pusb-news-type";
+import { formatTime } from "@//utils/FormatTime";
 const ContainerNews = ({ news }: { news: News }) => {
   return (
     <section>

@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 import { BaseUrl } from "@/pusb-admin/config/config";
-import { WorkplanCNCRequest } from "@/src/types/pusb-cnc-type";
+import { WorkplanCNCRequest } from "@//types/pusb-cnc-type";
 
 export const GetPUSBCNC = async () => {
   try {

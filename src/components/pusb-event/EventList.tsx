@@ -12,8 +12,8 @@ import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import Link from "next/link";
 import { FiTrash, FiEdit } from "react-icons/fi";
-import { Events } from "@/src/types/pusb-event-type";
-import { formatTime } from "@/src/utils/FormatTime";
+import { Events } from "@//types/pusb-event-type";
+import { formatTime } from "@//utils/FormatTime";
 import Image from "next/image";
 import ContainerEventStatus from "./ContainerEventStatus";
 

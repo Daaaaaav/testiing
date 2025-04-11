@@ -5,9 +5,9 @@ import Card from "@/pusb-admin/components/shared/Card";
 import "react-calendar/dist/Calendar.css";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import "@/pusb-admin/styles/MiniCalendar.css";
-import { Events } from "@/src/types/pusb-event-type";
+import { Events } from "@//types/pusb-event-type";
 import { GetPUSBEvent } from "../../pages/api/pusb-events";
-import SelectDateAlert from "@/src/lib/SelectDateAlert";
+import SelectDateAlert from "@//lib/SelectDateAlert";
 
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];

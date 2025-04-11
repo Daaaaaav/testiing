@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 import { BaseUrl } from "@/pusb-admin/config/config";
-import { RoleRequest } from "@/src/types/pusb-structure";
+import { RoleRequest } from "@//types/pusb-structure";
 
 export const GetPUSBRole = async (token: string | undefined) => {
   try {

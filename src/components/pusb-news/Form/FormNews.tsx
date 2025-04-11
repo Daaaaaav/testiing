@@ -8,10 +8,10 @@ import {
   CreatePUSBNews,
   GetPUSBNewsBySlug,
   UpdatePUSBNews,
-} from "@/src/pages/api/pusb-news";
-import { News } from "@/src/types/pusb-news-type";
+} from "@//pages/api/pusb-news";
+import { News } from "@//types/pusb-news-type";
 import Loader from "../../shared/Loader";
-import SuccessMessageAlert from "@/src/lib/SuccessMessageAlert";
+import SuccessMessageAlert from "@//lib/SuccessMessageAlert";
 import FailedMessageAlert from "../../../lib/FailedMessageAlert";
 
 const FormNews = ({

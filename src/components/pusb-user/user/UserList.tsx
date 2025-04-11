@@ -10,7 +10,7 @@ import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import Link from "next/link";
 import { FiTrash, FiEdit } from "react-icons/fi";
-import { Users } from "@/src/types/pusb-user-type";
+import { Users } from "@//types/pusb-user-type";
 
 const UserList = ({
   users,

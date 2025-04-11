@@ -11,7 +11,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import { News } from "@/src/types/pusb-news-type";
+import { News } from "@//types/pusb-news-type";
 import { GetPUSBNews } from "@/pusb-admin/pages/api/pusb-news";
 
 ChartJS.register(

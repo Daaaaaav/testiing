@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 import { BaseUrl } from "@/pusb-admin/config/config";
-import { EventTimelineRequest } from "@/src/types/pusb-event-type";
+import { EventTimelineRequest } from "@//types/pusb-event-type";
 
 export const GetPUSBEvent = async () => {
   try {

@@ -3,7 +3,7 @@ import { Button } from "flowbite-react";
 import { FiPlus } from "react-icons/fi";
 import Link from "next/link";
 import EventList from "./EventList";
-import { Events } from "@/src/types/pusb-event-type";
+import { Events } from "@//types/pusb-event-type";
 const ContainerEventList = ({ events }: { events: Events[] }) => {
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { CNC } from "@/src/types/pusb-cnc-type";
+import { CNC } from "@/types/pusb-cnc-type";
 import { Button } from "flowbite-react";
 import { FiEdit } from "react-icons/fi";
 import Link from "next/link";

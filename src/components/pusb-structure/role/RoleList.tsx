@@ -10,7 +10,7 @@ import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import Link from "next/link";
 import { FiTrash, FiEdit } from "react-icons/fi";
-import { Role } from "@/src/types/pusb-structure";
+import { Role } from "@//types/pusb-structure";
 import { GetPUSBRole } from "@/pusb-admin/pages/api/pusb-structure";
 
 const RoleList = ({ token }: { token: string }) => {

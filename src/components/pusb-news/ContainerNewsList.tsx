@@ -3,7 +3,7 @@ import { Button } from "flowbite-react";
 import { FiPlus } from "react-icons/fi";
 import Link from "next/link";
 import NewsList from "./NewsList";
-import { News } from "@/src/types/pusb-news-type";
+import { News } from "@//types/pusb-news-type";
 const ContainerNewsList = ({ news }: { news: News[] }) => {
   return (
     <>

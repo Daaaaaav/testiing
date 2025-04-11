@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useSession } from "next-auth/react";
 import Swal from "sweetalert2";
 import Loader from "../../shared/Loader";
-import { CNC } from "@/src/types/pusb-cnc-type";
+import { CNC } from "@//types/pusb-cnc-type";
 import {
   ActivatePUSBWorkplanCategory,
   DeactivatePUSBWorkplanCategory,

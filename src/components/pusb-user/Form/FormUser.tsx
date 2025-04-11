@@ -5,12 +5,12 @@ import { AiFillEye } from "react-icons/ai";
 import { HiMail } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
 import { useSession } from "next-auth/react";
-import { UserRequest } from "@/src/types/pusb-user-type";
-import { Role } from "@/src/types/pusb-structure";
+import { UserRequest } from "@//types/pusb-user-type";
+import { Role } from "@//types/pusb-structure";
 import { GetPUSBRole } from "@/pusb-admin/pages/api/pusb-structure";
 import Loader from "../../shared/Loader";
-import { CreatePUSBUser } from "@/src/pages/api/pusb-user";
-import SuccessMessageAlert from "@/src/lib/SuccessMessageAlert";
+import { CreatePUSBUser } from "@//pages/api/pusb-user";
+import SuccessMessageAlert from "@//lib/SuccessMessageAlert";
 import WarningMessageAlert from "../../../lib/WarningMessageAlert";
 import { useRouter } from "next/navigation";
 

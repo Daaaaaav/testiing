@@ -9,7 +9,7 @@ import {
 } from "flowbite-react";
 import Link from "next/link";
 import { FiTrash, FiEdit } from "react-icons/fi";
-import { Role } from "@/src/types/pusb-structure";
+import { Role } from "@//types/pusb-structure";
 import { GetPUSBRole } from "@/pusb-admin/pages/api/pusb-structure";
 const MinisterList = ({ token }: { token: string }) => {
   const [ministries, setMinistries] = useState<Role[] | null>(null);

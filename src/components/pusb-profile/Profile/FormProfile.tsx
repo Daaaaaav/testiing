@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import {
   CreatePUSBProfile,
   GetPUSBProfile,
-} from "@/src/pages/api/pusb-profile";
+} from "@//pages/api/pusb-profile";
 import AccessRetristected from "@/pusb-admin/components/shared/AccessRetristected";
 
 // const fetcherProfile = async () => await GetPUSBProfile();

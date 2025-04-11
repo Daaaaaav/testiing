@@ -2,12 +2,12 @@
 import React, { useState, useEffect } from "react";
 import Widget from "@/pusb-admin/components/pusb-dashboard/Widget";
 import { FiUsers } from "react-icons/fi";
-import ContainerUserList from "@/src/components/pusb-user/user/ContainerUserList";
+import ContainerUserList from "@//components/pusb-user/user/ContainerUserList";
 import { useSession, signOut } from "next-auth/react";
 import AccessRetristected from "@/pusb-admin/components/shared/AccessRetristected";
 import { useRouter } from "next/navigation";
-import { Users } from "@/src/types/pusb-user-type";
-import { GetPUSBUsers } from "@/src/pages/api/pusb-user";
+import { Users } from "@//types/pusb-user-type";
+import { GetPUSBUsers } from "@//pages/api/pusb-user";
 
 const ContainerUser = () => {
   const { data: session } = useSession();

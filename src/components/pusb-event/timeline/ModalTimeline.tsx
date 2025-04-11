@@ -2,7 +2,7 @@
 
 import { Button, Modal } from "flowbite-react";
 import { useState } from "react";
-import { EventTimeline } from "@/src/types/pusb-event-type";
+import { EventTimeline } from "@//types/pusb-event-type";
 
 const ModalTimeline = ({
   timelineId,

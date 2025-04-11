@@ -5,8 +5,8 @@ import { useSession } from "next-auth/react";
 import Swal from "sweetalert2";
 import Loader from "../shared/Loader";
 import { Dropdown } from "flowbite-react";
-import { UpdateStatusPUSBEvent } from "@/src/pages/api/pusb-events";
-import { Events } from "@/src/types/pusb-event-type";
+import { UpdateStatusPUSBEvent } from "@//pages/api/pusb-events";
+import { Events } from "@//types/pusb-event-type";
 
 const ContainerEventStatus = ({ event }: { event: Events }) => {
   const { data: session } = useSession();

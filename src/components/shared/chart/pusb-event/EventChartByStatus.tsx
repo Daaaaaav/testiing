@@ -11,7 +11,7 @@ import {
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
 import { Events } from "@/pusb-admin/types/pusb-event-type";
-import { GetPUSBEvent } from "@/src/pages/api/pusb-events";
+import { GetPUSBEvent } from "@//pages/api/pusb-events";
 
 ChartJS.register(
   CategoryScale,

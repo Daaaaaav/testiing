@@ -1,5 +1,5 @@
 import React from "react";
-import FormWorkplan from "@/src/components/pusb-profile/Workplan/form/FormWorkplan";
+import FormWorkplan from "@//components/pusb-profile/Workplan/form/FormWorkplan";
 const Page = ({ params }: { params: { id: string } }) => {
   return (
     <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">

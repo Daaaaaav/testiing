@@ -12,7 +12,7 @@ import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import Link from "next/link";
 import { FiTrash, FiEdit } from "react-icons/fi";
-import { CNC } from "@/src/types/pusb-cnc-type";
+import { CNC } from "@//types/pusb-cnc-type";
 import Image from "next/image";
 import ContainerCnCStatus from "./ContainerCnCStatus";
 

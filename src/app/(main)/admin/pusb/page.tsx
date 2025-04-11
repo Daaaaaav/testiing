@@ -11,9 +11,9 @@ import ChartNewsByCategory from "@/pusb-admin/components/shared/chart/pusb-news/
 import CncChartByStatus from "@/pusb-admin/components/shared/chart/pusb-cnc/CncChartByStatusPeriodStatus";
 import CncChartByCategory from "@/pusb-admin/components/shared/chart/pusb-cnc/CncChartByCategory";
 import MiniTableNews from "@/pusb-admin/components/pusb-dashboard/MiniTableNews";
-import { GetPUSBEvent } from "@/src/pages/api/pusb-events";
+import { GetPUSBEvent } from "@//pages/api/pusb-events";
 import { GetPUSBCNC } from "@/pusb-admin/pages/api/pusb-cnc";
-import { CNC } from "@/src/types/pusb-cnc-type";
+import { CNC } from "@//types/pusb-cnc-type";
 import { GetPUSBNews } from "../../../../pages/api/pusb-news";
 
 const page = async () => {

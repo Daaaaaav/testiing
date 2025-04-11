@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import { Button, Modal } from "flowbite-react";
-import { WorkplanCNC } from "@/src/types/pusb-cnc-type";
+import { WorkplanCNC } from "@//types/pusb-cnc-type";
 import { GetPUSBCNCWorkplanById } from "../../../pages/api/pusb-cnc";
-import { formatTime } from "@/src/utils/FormatTime";
+import { formatTime } from "@//utils/FormatTime";
 
 const CnCWorkplanModal = ({
   cncId,

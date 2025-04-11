@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "@/pusb-admin/components/shared/Card";
-import { GetPUSBNews } from "@/src/pages/api/pusb-news";
+import { GetPUSBNews } from "@//pages/api/pusb-news";
 import { News } from "@/pusb-admin/types/pusb-news-type";
-import { formatTimeAgo } from "@/src/utils/FormatTimeAgo";
+import { formatTimeAgo } from "@//utils/FormatTimeAgo";
 
 const MiniTableNews = async () => {
   const news: News[] | null = await GetPUSBNews();

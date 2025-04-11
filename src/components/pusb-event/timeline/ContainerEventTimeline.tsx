@@ -1,6 +1,6 @@
 import React from "react";
 import { EventTimeline } from "@/pusb-admin/types/pusb-event-type";
-import { formatTime } from "@/src/utils/FormatTime";
+import { formatTime } from "@//utils/FormatTime";
 import FormTimeline from "../form/FormTimeline";
 const ContainerEventTimeline = ({
   timeline,

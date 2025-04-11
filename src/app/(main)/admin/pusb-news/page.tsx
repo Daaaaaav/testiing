@@ -4,7 +4,7 @@ import { IoDocuments } from "react-icons/io5";
 import { MdBarChart } from "react-icons/md";
 import ContainerNewsList from "@/pusb-admin/components/pusb-news/ContainerNewsList";
 import { GetPUSBNews } from "@/pusb-admin/pages/api/pusb-news";
-import { News } from "@/src/types/pusb-news-type";
+import { News } from "@//types/pusb-news-type";
 
 const Page = async () => {
   const newses: News[] = await GetPUSBNews();

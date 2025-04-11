@@ -1,10 +1,10 @@
 import React from "react";
-import { Events, EventTimeline } from "@/src/types/pusb-event-type";
+import { Events, EventTimeline } from "@//types/pusb-event-type";
 import Image from "next/image";
 import { Button } from "flowbite-react";
 import { FiEdit } from "react-icons/fi";
 import Link from "next/link";
-import { formatTime } from "@/src/utils/FormatTime";
+import { formatTime } from "@//utils/FormatTime";
 import ContainerEventTimelineList from "./timeline/ContainerEventTimelineList";
 const ContainerEvent = ({
   event,

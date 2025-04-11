@@ -3,7 +3,7 @@ import MainWorkplanList from "./WorkplanList";
 import { Button } from "flowbite-react";
 import { FiPlus } from "react-icons/fi";
 import Link from "next/link";
-import { Workplan } from "@/src/types/pusb-workplan.type";
+import { Workplan } from "@//types/pusb-workplan.type";
 
 const ContainerWorkplanList = ({ Workplan }: { Workplan: Workplan[] }) => {
   return (
