@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import { redirect } from "next/navigation";
 import { useSession } from "next-auth/react";
-import CustomLoading from "../components/CustomLoading";
+import CustomLoading from "@/components/CustomLoading";
 
 export default function Home() {
   const { data: session, status } = useSession();
