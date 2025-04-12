@@ -5,10 +5,7 @@ import { FileInput, Label, TextInput, Textarea } from "flowbite-react";
 import Image from "next/image";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import {
-  CreatePUSBProfile,
-  GetPUSBProfile,
-} from "@//pages/api/pusb-profile";
+import { CreatePUSBProfile, GetPUSBProfile } from "@/pages/api/pusb-profile";
 import AccessRetristected from "@/pusb-admin/components/shared/AccessRetristected";
 
 // const fetcherProfile = async () => await GetPUSBProfile();

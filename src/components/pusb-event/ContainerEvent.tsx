@@ -1,10 +1,10 @@
 import React from "react";
-import { Events, EventTimeline } from "@//types/pusb-event-type";
+import { Events, EventTimeline } from "@/types/pusb-event-type";
 import Image from "next/image";
 import { Button } from "flowbite-react";
 import { FiEdit } from "react-icons/fi";
 import Link from "next/link";
-import { formatTime } from "@//utils/FormatTime";
+import { formatTime } from "@/utils/FormatTime";
 import ContainerEventTimelineList from "./timeline/ContainerEventTimelineList";
 const ContainerEvent = ({
   event,
@@ -32,7 +32,7 @@ const ContainerEvent = ({
                 Starts: {formatTime(event.start_date)} | Ends:{" "}
                 {formatTime(event.end_date)}
               </p>
-                
+
               <ul className="mt-2 space-y-2">
                 <li className="flex items-center gap-2 font-medium text-base">
                   Audience Link:

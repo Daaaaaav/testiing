@@ -6,8 +6,8 @@ import Loader from "../../shared/Loader";
 import {
   ActivatePUSBEventTimeline,
   DeactivatePUSBEventTimeline,
-} from "@//pages/api/pusb-events";
-import { EventTimeline } from "@//types/pusb-event-type";
+} from "@/pages/api/pusb-events";
+import { EventTimeline } from "@/types/pusb-event-type";
 
 const ContainerEventTimelineStatus = ({
   eventId,

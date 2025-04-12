@@ -9,10 +9,10 @@ import {
   CreatePUSBWorkplanCategory,
   UpdatePUSBWorkplanCategory,
   GetPUSBWorkplanCategoryById,
-} from "@//pages/api/pusb-workplan";
-import Loader from "@//components/shared/Loader";
-import SuccessMessageAlert from "@//lib/SuccessMessageAlert";
-import FailedMessageAlert from "@//lib/FailedMessageAlert";
+} from "@/pages/api/pusb-workplan";
+import Loader from "@/components/shared/Loader";
+import SuccessMessageAlert from "@/lib/SuccessMessageAlert";
+import FailedMessageAlert from "@/lib/FailedMessageAlert";
 
 const FormWorkplan = ({
   isEditMode,

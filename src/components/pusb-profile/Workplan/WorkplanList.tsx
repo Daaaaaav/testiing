@@ -12,7 +12,7 @@ import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import Link from "next/link";
 import { FiTrash, FiEdit } from "react-icons/fi";
-import { Workplan } from "@/pusb-admin/types/pusb-Workplan.type";
+import { Workplan } from "@/pusb-admin/types/pusb-workplan.type";
 import Image from "next/image";
 import ContainerWorkplanStatus from "./ContainerWorkplanStatus";
 

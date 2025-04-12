@@ -8,7 +8,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import Profile from "@/public/images/profile.png";
+import Profile from "../../public/images/profile.png";
 import { redirect } from "next/navigation";
 
 const Header = () => {

@@ -3,7 +3,7 @@ import { HiX } from "react-icons/hi";
 import React, { useState } from "react";
 import { FiAlignJustify } from "react-icons/fi";
 import SidebarLinks from "./shared/SidebarLinks";
-import routes from "@/pusb-admin//routes";
+import routes from "@/pusb-admin/routes";
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
   return (

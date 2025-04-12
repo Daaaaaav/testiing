@@ -4,7 +4,7 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { Label, TextInput, Select, Textarea } from "flowbite-react";
 import { WorkplanCNCRequest } from "@/types/pusb-cnc-type";
-import { GetPUSBCNCWorkplanByCnCId } from "../../../pages/api/pusb-cnc";
+import { GetPUSBCNCWorkplanByCnCId } from "@/pages/api/pusb-cnc";
 import {
   CreatePUSBCNCWorkplan,
   GetPUSBCNCWorkplanById,

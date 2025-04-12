@@ -12,9 +12,9 @@ import {
 import {
   GetPUSBEventTimelineById,
   GetPUSBEventById,
-} from "@//pages/api/pusb-events";
-import SuccessMessageAlert from "@//lib/SuccessMessageAlert";
-import FailedMessageAlert from "@//lib/FailedMessageAlert";
+} from "@/pages/api/pusb-events";
+import SuccessMessageAlert from "@/lib/SuccessMessageAlert";
+import FailedMessageAlert from "@/lib/FailedMessageAlert";
 import Loader from "../../shared/Loader";
 
 const fetchEventTimelines = async (eventId: string) => {
